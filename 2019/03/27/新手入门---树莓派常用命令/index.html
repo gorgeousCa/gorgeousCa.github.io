@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/3 | 煎饼果子酒</title>
+  <title>煎饼果子酒</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="“Catherine的个人博客，涉及网络，计算机和Python编程”">
-<meta property="og:type" content="website">
+  <meta name="description" content="导航命令：1、ls   查看当前目录内容2、cd      切换工作目录3、pwd  查看当前路径 目录操作命令:1、mkdir      创建目录2、rmdir   删除空目录（只能删除空目录）3、 rm     删除目录  文件操作命令:1、touch       创建空文件2、file        查看文件类型3、more /less     查看文件内容 （more 和 less 两个">
+<meta property="og:type" content="article">
 <meta property="og:title" content="煎饼果子酒">
-<meta property="og:url" content="http://yoursite.com/archives/2019/03/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/03/27/新手入门---树莓派常用命令/index.html">
 <meta property="og:site_name" content="煎饼果子酒">
-<meta property="og:description" content="“Catherine的个人博客，涉及网络，计算机和Python编程”">
+<meta property="og:description" content="导航命令：1、ls   查看当前目录内容2、cd      切换工作目录3、pwd  查看当前路径 目录操作命令:1、mkdir      创建目录2、rmdir   删除空目录（只能删除空目录）3、 rm     删除目录  文件操作命令:1、touch       创建空文件2、file        查看文件类型3、more /less     查看文件内容 （more 和 less 两个">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-03-27T01:26:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="煎饼果子酒">
-<meta name="twitter:description" content="“Catherine的个人博客，涉及网络，计算机和Python编程”">
+<meta name="twitter:description" content="导航命令：1、ls   查看当前目录内容2、cd      切换工作目录3、pwd  查看当前路径 目录操作命令:1、mkdir      创建目录2、rmdir   删除空目录（只能删除空目录）3、 rm     删除目录  文件操作命令:1、touch       创建空文件2、file        查看文件类型3、more /less     查看文件内容 （more 和 less 两个">
   
     <link rel="alternative" href="/atom.xml" title="煎饼果子酒" type="application/atom+xml">
   
@@ -157,91 +158,170 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-新手入门---树莓派常用命令" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>导航命令：<br>1、ls   查看当前目录内容<br>2、cd   <name>   切换工作目录<br>3、pwd  查看当前路径</name></li>
+<li><p>目录操作命令:<br>1、mkdir   <name>   创建目录<br>2、rmdir  <name> 删除空目录（只能删除空目录）<br>3、 rm  <name>   删除目录</name></name></name></p>
+</li>
+<li><p>文件操作命令:<br>1、touch   <name>    创建空文件<br>2、file  <filename>      查看文件类型<br>3、more /less  <name>   查看文件内容 （more 和 less 两个命令都可用来浏览文本文件，可以分页查看文件内容，空格翻页。文 件浏览完毕，按键盘 q 退出。相比来说 less 命令更加灵活，支持键盘的 Page Up 和 Page Down 键，可任意向前向后翻 页浏览，并且还支持文本搜索。使用 less 打开文件后，输入/abc 可在文本中搜索字符串 abc， 匹配的字符串高亮显示）<br>4、head/tail    <name>  查看文件内容 （head 和 tail 这两个命令可分别查看文件头部和文件尾部，一般用于查看 ASCII 文件。默 认显示 10 行。）<br>5、cat      <name>      查看文件内容 （可以将一个或者多个文件输出到标准输出上）<br>6、tar      <name>     文件压缩/解压<br>7、mv       &lt; 源文件/目录目的文件/目录 &gt;      文件改名和移动<br>8、cp       [选项] &lt;源文件/目录目的文件/目录 &gt; 复制文件<br>9、 ln      &lt; 选项源文件/目录目标文件 &gt;        创建链接<br>10、chmod [参数] &lt;文件/目录  &gt;                改变或者设置文件/目录的权限<br>11、find   <name> /  grep&lt;  选项   &gt;                   查找文件</name></name></name></name></name></filename></name></p>
+</li>
+</ul>
+<p><strong>-网络配置命令:</strong><br> 1、ifconfig   网络接口 [选项] 地址/参数     查看和更改网络接口的地址和参数<br> 2、ping              IP 地地址                       检查网络是否通畅<br>编辑器vi的使用：（vi和vim的联系）<br>编辑器：编辑器就是一款软件，他的主要作用是用来编辑。如编写文件，编写代码等。<br>windows中的常用编辑器： notepad（笔记本） notepad++,UltraEditor, SlickEditor<br>linux中常用的编辑器：  自带的最古老的vi。比较好用的是vim，gedit。<br>注意：vim是vi的升级版，推荐使用vim。<br>       但使用vim（vi）打开一个文件时，如果文件不存在他会帮你新建一个文件。<br>  vi的两种工作模式：<br>  命令模式：  当vi打开时默认为命令模式，要转入输入模式，需要按a或i键。在命令模式               下所有的输入都被vi当作命令来对待。（所以不要乱按）<br>  输入模式： 输入模式用来向文件输入内容。当输入完成要保存文件时需要按Esc键切换到命令模式。<br>注意 :  看屏幕左下角，当命令模式时无提示信息或者提示文件名等信息，当输入模式时，提示：–INSERT–</p>
+<p>  使用方式：  vi  pathname     打开或创建一个文件</p>
+<p>在命令模式下保存文件：<br>        ：wq      保存并且退出<br>        ：w         只保存不退出<br>         ：q         不保存退出  （只是进来看了一下没改时退出用）<br>         ：q!         不保存强制退出<br>         ：wq!      保存并强制退出</p>
+<p>vi  的高级使用(在命令模式下使用)</p>
+<ul>
+<li>/xxx      查找 xxx </li>
+<li>：行数   快速切换到指定行数</li>
+<li>：set nu  设置显示行号</li>
+<li>：set nonu  设置不显示行号<br>注意：设置永久显示行号，需要修改vi的配置文件。打开vi的配置文件~/.vimrc 在其中输入set nu 即可。</li>
+<li>dd        删除一整行</li>
+<li>numdd    删除num行</li>
+<li>numyy    复制num行</li>
+<li><p>p              粘贴<br>注意:    复制时要把光标放在多行的第一行，粘贴时实际粘贴到当前光标所在行的下一行。</p>
+</li>
+<li><p>vim水平分屏的使用 :vim -on file1 file2 …其中:<br>o(是小写字母o,不是数字零)n(表示你要分屏的文件个数)<br>filen(文件名多个文件用空格分开)</p>
+</li>
+<li>vim垂直分屏:vim -On file1 file2 …..<br>其中:O(是大写字母O,不是数字零)n(表示你要分屏的文件个数)    <pre><code>filen(文件名多个文件用空格分开)
+</code></pre></li>
+<li>撤销命令（命令模式下有效）<br>u ：小写的 u 键。 </li>
+</ul>
+<ul>
+<li>常用命令:<br>1、sudo raspi-config  初始化配置<br>2、startx 启动图形化界面<br>3、sudo rpi-update 升级系统<br>4、sudo reboot 重启<br>5、sudo shutdown -h now 立即关机<br>6、sudo apt-get update   更新软件源<br>7、sudo apt-get upgrade  更新已经安装的软件<br>8、sudo apt-get install XX  安装XX软件<br>9、su root 切换到root用户<br>10、passwd user  设置user用户的密码</li>
+</ul>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/03/27/新手入门---树莓派常用命令/" class="archive-article-date">
-  	<time datetime="2019-03-27T01:26:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-27</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/03/27/新手入门---树莓派常用命令/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/03/24/Windows远程连接树莓派的三种方法/" class="archive-article-date">
-  	<time datetime="2019-03-24T13:27:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-24</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/03/24/love-you-forever/" class="archive-article-date">
-  	<time datetime="2019-03-24T11:53:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-24</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/24/love-you-forever/">love you forever</a>
-    </h1>
+  
+    <a href="/2019/03/24/Windows远程连接树莓派的三种方法/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -264,8 +344,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
